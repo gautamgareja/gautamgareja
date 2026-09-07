@@ -27,12 +27,12 @@ Before specializing in HubSpot and AI-driven workflows, I spent five years as a 
 
 | Domain | Tools & Focus |
 | :--- | :--- |
-| **Backend & APIs** | Node.js, NestJS, PHP, REST APIs, Webhooks, OAuth, Serverless Functions |
+| **Backend & APIs** | Node.js, NestJS, TypeScript, PHP, REST APIs, Webhooks, OAuth, Serverless Functions |
 | **PHP Frameworks** | Laravel, Symfony, YII |
 | **Frontend & UI** | HTML5, CSS, Bootstrap, JavaScript, jQuery, Ajax, React, Next.js |
-| **HubSpot & CRM** | HubSpot APIs, Custom CRM Cards, UI Extensions, Workflow Automation |
+| **HubSpot & CRM** | HubSpot APIs, HubDB, Salesforce, PandaDoc, Custom CRM Cards, UI Extensions, Workflow Automation |
 | **AI & Automation** | LLM Workflows, AI Agents (Make), Prompt & Context Engineering |
-| **Integrations & Architecture** | API Security, Rate Limiting, Enterprise Architecture, Payment Gateways (Stripe, PayPlus), Firebase Push Notifications, Google Analytics, Google Tag Manager, Product Fruits, Wootrics |
+| **Integrations & Architecture** | API Security, Rate Limiting, Circuit Breakers, Enterprise Architecture, Structured Logging (Winston, Pino), Payment Gateways (Stripe, PayPlus), Firebase Push Notifications, Google Analytics, Google Tag Manager, Product Fruits, Wootrics |
 | **Databases, Tools & Platforms** | MySQL, Git, JIRA, Trello, Basecamp, PowerShell, Windows, Linux |
 
 ---
