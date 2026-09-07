@@ -19,19 +19,35 @@ Building at **TRooInbound** · Ahmedabad, Gujarat, India · [LinkedIn](https://i
 
 Senior Full Stack Developer and HubSpot Solutions Specialist, currently building at **TRooInbound**. My work spans full-stack web applications, HubSpot CRM architecture, API integrations, and AI-driven workflows, with a steady focus on systems that stay secure, maintainable, and easy to extend long after the first release.
 
+Before specializing in HubSpot and AI-driven workflows, I spent five years as a PHP Developer at Tridhya Tech, shipping multi-role SaaS platforms, payment and analytics integrations, and internal tooling for clients across project management, energy, and healthcare.
+
 ---
 
 ## Tech Stack & Core Competencies
 
 | Domain | Tools & Focus |
 | :--- | :--- |
-| **Backend & APIs** | Node.js, PHP, REST APIs, Webhooks, OAuth, Serverless Functions |
+| **Backend & APIs** | Node.js, NestJS, PHP, REST APIs, Webhooks, OAuth, Serverless Functions |
 | **PHP Frameworks** | Laravel, Symfony, YII |
 | **Frontend & UI** | HTML5, CSS, Bootstrap, JavaScript, jQuery, Ajax, React, Next.js |
 | **HubSpot & CRM** | HubSpot APIs, Custom CRM Cards, UI Extensions, Workflow Automation |
 | **AI & Automation** | LLM Workflows, AI Agents (Make), Prompt & Context Engineering |
 | **Integrations & Architecture** | API Security, Rate Limiting, Enterprise Architecture, Payment Gateways (Stripe, PayPlus), Firebase Push Notifications, Google Analytics, Google Tag Manager, Product Fruits, Wootrics |
 | **Databases, Tools & Platforms** | MySQL, Git, JIRA, Trello, Basecamp, PowerShell, Windows, Linux |
+
+---
+
+## Notable Projects
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **Project Management System (PMS)** | Multi-role project management portal covering task tracking, leave and compensatory time-off management, and team collaboration | Laravel, MySQL, Firebase, Bootstrap, jQuery |
+| **Lumisa** | Operations platform for a Spanish electricity marketer, with data analytics for cost-effective energy plans | Symfony, React, Next.js, MySQL |
+| **Handprint Saas** | Plugin creation portal for e-commerce and non-e-commerce platforms, with admin, role, and module access management | Laravel, MySQL, Stripe, Google Analytics, Google Tag Manager |
+| **Trifecta Teams** | Management platform for Microsoft Teams Direct Routing and telephony settings | Laravel, PowerShell, MySQL, Stripe |
+| **Project Information System (PIS)** | Multi-role portal for managing projects, clients, developers, and payments | Laravel, MySQL, Bootstrap, jQuery |
+| **VenueServe** | Event creation portal with Stripe-powered ticketing and public box office pages | Laravel, MySQL, Stripe, HTML5 |
+| **Dental Solutions** | Direct dental-implant ordering platform for dentists and technicians, replacing regional distributors | YII, MySQL, PayPlus, Firebase |
 
 ---
 
