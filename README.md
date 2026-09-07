@@ -3,30 +3,40 @@
 # Gautam Gareja
 ### Senior Full Stack Developer & HubSpot Solutions Specialist
 
-<img src="assets/ascii-portrait.svg" width="360" alt="ASCII portrait of Gautam Gareja, rendered as duotone terminal artwork" />
-
 </div>
+
+<table>
+<tr>
+<td valign="top" align="center" width="200">
+
+<img src="assets/ascii-portrait.svg" width="180" alt="ASCII portrait of Gautam Gareja, rendered as duotone terminal artwork" />
+
+</td>
+<td valign="top">
 
 ```yaml
 identity:
   name: Gautam Gareja
-  role: Senior Full Stack Developer
-  focus: HubSpot Solutions Specialist
-  status: shipping production systems
+  role: Senior Full Stack
+  focus: HubSpot Solutions
+  status: shipping systems
 
 stack:
-  core: [Node.js, NestJS, TypeScript, PHP]
-  frameworks: [Laravel, Symfony, YII]
-  frontend: [React, Next.js, JavaScript]
+  core: [Node, Nest, TS, PHP]
+  web: [React, Next, Laravel]
 
 platforms:
-  crm: [HubSpot, Salesforce, PandaDoc]
-  ai: [LLM Workflows, AI Agents, Make]
+  crm: [HubSpot, Salesforce]
+  ai: [LLM, Agents, Make]
 
 session:
-  location: Ahmedabad, Gujarat, India
-  linkedin: in/gautam-gareja
+  base: Ahmedabad, India
+  in: gautam-gareja
 ```
+
+</td>
+</tr>
+</table>
 
 ## `$ whoami`
 
