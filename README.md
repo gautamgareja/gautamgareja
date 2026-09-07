@@ -13,7 +13,7 @@
 
 <pre>
   Gautam Gareja
-  ─────────────────────────
+  ─────────────
   full-stack · hubspot · ai
 </pre>
 
