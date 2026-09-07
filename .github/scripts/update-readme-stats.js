@@ -158,7 +158,7 @@ module.exports = async ({ github, core, fs }) => {
     content,
     "<!--GH-LANGS:START-->",
     "<!--GH-LANGS:END-->",
-    topLanguages.join(", ") || "n/a"
+    topLanguages.join(", ") || "pending (repo stats still indexing)"
   );
   fsMod.writeFileSync(README_PATH, content);
 
