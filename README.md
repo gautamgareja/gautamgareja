@@ -5,24 +5,24 @@
 
 </div>
 
-<table>
+<table width="100%">
 <tr>
-<td valign="top" align="center" width="200">
+<td valign="top" align="center" width="36%">
 
-<img src="assets/ascii-portrait.svg" width="180" alt="ASCII portrait of Gautam Gareja, rendered as duotone terminal artwork" />
+<img src="assets/ascii-portrait.svg" width="100%" alt="ASCII portrait of Gautam Gareja, rendered as duotone terminal artwork" />
 
 </td>
-<td valign="top">
+<td valign="top" width="64%">
 
 ```yaml
 identity:
   name: Gautam Gareja
-  role: Senior Full Stack
+  role: Full Stack Dev
   focus: HubSpot Solutions
   status: shipping systems
 
 stack:
-  core: [Node, Nest, TS, PHP]
+  core: [Node, Nest, PHP]
   web: [React, Next, Laravel]
 
 platforms:
