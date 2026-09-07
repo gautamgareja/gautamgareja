@@ -13,7 +13,7 @@
 
 <pre>
   Gautam Gareja
-  ─────────────
+  ─────────────────────────
   full-stack · hubspot · ai
 </pre>
 
@@ -21,7 +21,7 @@
 <td valign="top" width="66%">
 
 <pre>
-gautam@trooinbound
+Gautam Gareja
 -------------------
 Status      : Actively building @ TRooInbound
 OS          : Full-Stack Web Development
