@@ -12,8 +12,8 @@
 <img src="assets/profile.png" width="200" height="200" alt="Gautam Gareja — Senior Full Stack Developer &amp; HubSpot Solutions Specialist" />
 
 <pre>
-  gautam@github
-  ─────────────
+  gautam@gautamgareja
+  ────────────────────
   full-stack · hubspot · ai
 </pre>
 
