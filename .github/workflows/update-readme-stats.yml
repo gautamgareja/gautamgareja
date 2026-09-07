@@ -1,0 +1,42 @@
+name: Refresh README GitHub stats
+
+on:
+  schedule:
+    # Daily at 03:00 UTC. No push trigger on this repo, so the bot's own
+    # commit below never re-triggers the workflow.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Fetch live stats and update README
+        uses: actions/github-script@v7
+        with:
+          # Default token GitHub issues for this workflow run. No personal
+          # access token or extra secret is needed: every value the script
+          # reads (repo count, stars, commits, followers, languages, lines
+          # of code) is public data about the gautamgareja account.
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script-path: .github/scripts/update-readme-stats.js
+
+      - name: Commit changes if the stats moved
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No stats changes, nothing to commit."
+          else
+            git commit -m "chore: refresh live GitHub stats"
+            git push
+          fi
