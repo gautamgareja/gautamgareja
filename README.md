@@ -7,16 +7,11 @@
 
 <table>
 <tr>
-<td valign="top" width="34%">
+<td valign="top" width="34%" align="center">
+
+<img src="assets/profile.png" width="200" height="200" alt="Gautam Gareja — Senior Full Stack Developer &amp; HubSpot Solutions Specialist" />
 
 <pre>
- ██████╗  ██████╗
-██╔════╝ ██╔════╝
-██║  ███╗██║  ███╗
-██║   ██║██║   ██║
-╚██████╔╝╚██████╔╝
- ╚═════╝  ╚═════╝
-
   gautam@dev
   ───────────────
   full-stack · hubspot · ai
