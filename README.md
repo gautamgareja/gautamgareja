@@ -17,21 +17,22 @@
 ```yaml
 identity:
   name: Gautam Gareja
-  role: Full Stack Dev
-  focus: HubSpot Solutions
-  status: shipping systems
+  role: Senior Full Stack Developer
+  focus: HubSpot Solutions Specialist
+  status: shipping production systems
 
 stack:
-  core: [Node, Nest, PHP]
-  web: [React, Next, Laravel]
+  core: [Node.js, NestJS, TypeScript, PHP]
+  frameworks: [Laravel, Symfony, YII]
+  frontend: [React, Next.js, JavaScript]
 
 platforms:
-  crm: [HubSpot, Salesforce]
-  ai: [LLM, Agents, Make]
+  crm: [HubSpot, Salesforce, PandaDoc]
+  ai: [LLM Workflows, AI Agents, Make]
 
 session:
-  base: Ahmedabad, India
-  in: gautam-gareja
+  location: Ahmedabad, Gujarat, India
+  linkedin: in/gautam-gareja
 ```
 
 </td>
