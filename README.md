@@ -3,6 +3,8 @@
 # Gautam Gareja
 ### Senior Full Stack Developer & HubSpot Solutions Specialist
 
+Full-stack applications, HubSpot CRM architecture, API integrations, workflow automation, and applied AI.
+
 </div>
 
 <table width="100%">
@@ -41,39 +43,55 @@ session:
 
 ## `$ whoami`
 
-Senior Full Stack Developer and HubSpot Solutions Specialist, currently building at **TRooInbound**. My work spans full-stack web applications, HubSpot CRM architecture, API integrations, and AI-driven workflows, with a steady focus on systems that stay secure, maintainable, and easy to extend long after the first release.
-
-Before specializing in HubSpot and AI-driven workflows, I spent five years as a PHP Developer at Tridhya Tech, shipping multi-role SaaS platforms, payment and analytics integrations, and internal tooling for clients across project management, energy, and healthcare.
+Full-stack engineer working at the intersection of application development, API and integration engineering, HubSpot CRM architecture, workflow automation, and applied AI. I build systems that connect platforms rather than sit inside one: custom CRM surfaces, third-party data synchronization, and LLM-driven automation, with a steady focus on code that stays secure, maintainable, and easy to extend long after the first release.
 
 ---
 
 ## `$ cat core-systems.yml`
 
 ```yaml
-backend:
+backend:  # server-side systems, business logic, data flow
   languages: [Node.js, NestJS, TypeScript, PHP]
   frameworks: [Laravel, Symfony, YII]
   interfaces: [REST APIs, Webhooks, OAuth, Serverless Functions]
 
-frontend:
+frontend:  # interfaces built on that data
   stack: [React, Next.js, JavaScript, HTML5, CSS]
   legacy: [jQuery, Ajax, Bootstrap]
 
+reliability:  # what keeps systems correct under load
+  patterns: [API Security, Rate Limiting, Circuit Breakers]
+  observability: [Structured Logging - Winston, Pino]
+
 data_and_tools:
   database: [MySQL]
-  tooling: [Git, PowerShell, Linux, JIRA, Trello, Basecamp]
-
-architecture:
-  patterns: [API Security, Rate Limiting, Circuit Breakers, Enterprise Architecture]
-  observability: [Structured Logging - Winston, Pino]
   analytics: [Google Analytics, Google Tag Manager]
+  tooling: [Git, PowerShell, Linux, JIRA, Trello, Basecamp]
+```
+
+The stack above is tooling. Here's what it combines into.
+
+## `$ cat capabilities.md`
+
+```yaml
+build:
+  - Full-stack application development, from schema design to shipped UI
+  - REST API and backend architecture
+  - CRM and third-party integrations - HubSpot, Salesforce, PandaDoc, payment gateways
+  - Role-based SaaS systems
+  - Workflow and business-process automation
+
+care_about:
+  - Security-conscious, maintainable system design
+  - Data synchronization and webhook reliability between systems
+  - Resilience under load - rate limiting, circuit breakers, structured logging
 ```
 
 ---
 
 ## `$ cat hubspot.yml`
 
-HubSpot is where most of my deepest architecture work lives, custom CRM surfaces, not just API calls.
+HubSpot is a core part of my engineering work, spanning CRM architecture, custom experiences, automation, and system integrations.
 
 ```yaml
 hubspot:
@@ -82,6 +100,8 @@ hubspot:
   integrate: [Salesforce, PandaDoc, Custom Object Mapping]
   scope: [CRM Architecture, Data Sync, Third-Party Webhooks]
 ```
+
+Custom cards and UI extensions put application logic directly inside the CRM interface instead of a separate admin panel. HubDB backs data-driven views without standing up a separate database. Workflow automation, suppression lists, and approval systems enforce process consistency without manual gatekeeping. Custom object mapping keeps HubSpot's data model aligned with Salesforce and PandaDoc instead of forcing a lossy, one-size-fits-all schema. Webhook-driven sync keeps all three systems consistent without manual reconciliation.
 
 ---
 
@@ -99,35 +119,67 @@ ai:
 
 ---
 
+## `$ cat engineering-path.yml`
+
+```yaml
+- stage: PHP & Backend Engineering
+  focus: Backend systems, multi-role SaaS applications, and internal tooling
+    across project management, energy, and healthcare domains
+
+- stage: Full-Stack Application Development
+  focus: Backend and frontend systems spanning application logic, data, and
+    UI, including React/Next.js and NestJS/TypeScript
+
+- stage: API & Integration Engineering
+  focus: REST APIs, OAuth, webhooks, payment gateways, and third-party
+    platform integrations
+
+- stage: CRM & HubSpot Engineering
+  focus: CRM architecture, custom CRM experiences, automation, and data
+    synchronization across HubSpot, Salesforce, and PandaDoc
+
+- stage: AI & Workflow Automation
+  focus: LLM workflows, AI agents, prompt and context engineering, and
+    operational automation
+```
+
+---
+
 ## `$ ls systems-shipped/`
 
-**Project Management System (PMS)**
-Multi-role portal streamlining task tracking, leave management, and team collaboration.
-`Laravel · MySQL · Firebase · Bootstrap`
+**Featured**
 
 **Lumisa**
-Operations platform for a Spanish electricity marketer; data analytics driving cost-effective energy plans.
+Operations and analytics platform for a Spanish electricity marketer, turning usage and pricing data into cost-effective energy plans. Symfony services on the backend, React and Next.js on the frontend.
 `Symfony · React · Next.js · MySQL`
 
+**Project Management System (PMS)**
+Multi-role SaaS portal coordinating task tracking, leave management, and team collaboration across admin, manager, and employee roles.
+`Laravel · MySQL · Firebase · Bootstrap`
+
 **Handprint SaaS**
-Plugin-creation portal for e-commerce and non-e-commerce platforms with granular role and module access.
+Plugin-creation portal for e-commerce and non-e-commerce platforms, with granular role- and module-level access control and Stripe-based billing.
 `Laravel · MySQL · Stripe · Google Analytics`
 
-**Trifecta Teams**
-Simplifies Microsoft Teams Direct Routing and telephony management.
-`Laravel · PowerShell · MySQL · Stripe`
+**Also shipped**
 
-**Project Information System (PIS)**
-Multi-role portal managing projects, clients, developers, and payments.
-`Laravel · MySQL · Bootstrap · jQuery`
+- **Trifecta Teams**: Microsoft Teams Direct Routing and telephony management. `Laravel · PowerShell · MySQL · Stripe`
+- **Project Information System (PIS)**: Multi-role portal for projects, clients, developers, and payments. `Laravel · MySQL · Bootstrap · jQuery`
+- **VenueServe**: Event-creation portal with Stripe-powered ticketing and public box-office pages. `Laravel · MySQL · Stripe · HTML5`
+- **Dental Solutions**: Direct dental-implant ordering platform, replacing regional distributors. `YII · MySQL · PayPlus · Firebase`
 
-**VenueServe**
-Event-creation portal with Stripe-powered ticketing and public box-office pages.
-`Laravel · MySQL · Stripe · HTML5`
+---
 
-**Dental Solutions**
-Direct dental-implant ordering platform, replacing regional distributors.
-`YII · MySQL · PayPlus · Firebase`
+## `$ cat principles.md`
+
+```yaml
+principles:
+  - Understand the system before changing it
+  - Reuse existing functionality instead of unnecessary duplication
+  - Build for maintainability and security
+  - Preserve backward compatibility
+  - Validate and test before calling anything done
+```
 
 ---
 
@@ -147,60 +199,12 @@ certifications:
 
 ---
 
-## `$ cat principles.md`
-
-```yaml
-principles:
-  - Understand the system before changing it
-  - Reuse existing functionality instead of duplicating it
-  - Build for maintainability, security, and backward compatibility
-  - Validate and test before calling anything done
-```
-
----
-
 ## `$ contact --info`
+
+Building reliable products, CRM systems, integrations, or AI-powered workflows? Let's connect.
 
 ```yaml
 contact:
   linkedin: https://in.linkedin.com/in/gautam-gareja
   location: Ahmedabad, Gujarat, India
 ```
-
----
-
-<div align="center">
-
-> Great software isn't just about writing code; it's about understanding the platform, following best practices, and building solutions that scale with confidence.
-
-</div>
-
----
-
-<div align="center">
-<sub>
-
-Active for <!--GH-UPTIME:START-->1y 6m (GitHub since 2025)<!--GH-UPTIME:END--> · Primarily writing <!--GH-LANGS:START-->pending (repo stats still indexing)<!--GH-LANGS:END-->
-
-</sub>
-
-<details>
-<summary><sub>GitHub activity snapshot (auto-updated daily)</sub></summary>
-
-<br>
-
-This account is new (created 2025); most of the work referenced above lives in private and client repositories, so the numbers below are a small, honest slice of the whole picture, not the full story.
-
-<pre>
-<!--GH-STATS:START-->
-Repos      : 1 (public, owned)
-Stars      : 0
-Commits    : pending first automated run
-Followers  : 0
-Lines      : pending first automated run
-<!--GH-STATS:END-->
-</pre>
-
-</details>
-
-</div>
