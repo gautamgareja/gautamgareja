@@ -112,6 +112,10 @@ Built the portal with role- and module-level access control and Stripe-based bil
 
 ## More Systems
 
+<details>
+<summary>4 additional systems (Trifecta Teams, Project Information System, VenueServe, Dental Solutions)</summary>
+<br>
+
 | System | Description | Stack |
 |---|---|---|
 | Trifecta Teams | Single management surface for Microsoft Teams Direct Routing and telephony administration. | `Laravel` `PowerShell` `MySQL` `Stripe` |
@@ -119,10 +123,16 @@ Built the portal with role- and module-level access control and Stripe-based bil
 | VenueServe | Event-creation portal with Stripe ticketing and public box-office pages. | `Laravel` `MySQL` `Stripe` `HTML5` |
 | Dental Solutions | Direct dental-implant ordering platform, replacing regional distributors. | `YII` `MySQL` `PayPlus` `Firebase` |
 
+</details>
+
 ## Achievements
 
 **95.19 / 100** · Google for Developers PromptWars Hackathon
 Built an AI mental wellness tracker prototype in under 4 hours.
+
+<details>
+<summary>Certifications</summary>
+<br>
 
 | Certification | Issuer |
 | :-- | :-- |
@@ -130,6 +140,8 @@ Built an AI mental wellness tracker prototype in under 4 hours.
 | HubSpot Data Integrations | HubSpot Academy |
 | AI Agent Builder | Make |
 | Claude Code in Action | Anthropic |
+
+</details>
 
 ## Contact
 
